@@ -32,6 +32,12 @@ sec:privilege-add-roles(
     "http://marklogic.com/xdmp/privileges/any-collection",
     "execute",
     ("openspace"))
+,
+sec:privilege-add-roles(
+    "http://marklogic.com/xdmp/privileges/xdbc-eval",
+    "execute",
+    ("openspace"))
+
 ) 
 
 
