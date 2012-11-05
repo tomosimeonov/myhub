@@ -10,7 +10,7 @@ let $config := admin:get-configuration()
 return  admin:save-configuration(admin:xdbc-server-create(
                 $config, 
                 admin:group-get-id($config, "Default"), 
-                "openspace-xdbc", 
+                "openspacexdbc", 
                 "/",
                 8022, 
                 0, 
@@ -26,7 +26,7 @@ let $config := admin:get-configuration()
 return  admin:save-configuration(admin:http-server-create(
                 $config, 
                 admin:group-get-id($config, "Default"), 
-                "openspace-http", 
+                "openspacehttp", 
                 "/",
                 8023, 
                 0, 
@@ -41,7 +41,7 @@ let $config := admin:get-configuration()
 let $groupid := admin:group-get-id($config, "Default")
 return	
 	admin:save-configuration(
-			admin:appserver-set-authentication($config, admin:appserver-get-id($config, $groupid, "openspace-http"),
+			admin:appserver-set-authentication($config, admin:appserver-get-id($config, $groupid, "openspacehttp"),
          		"basic"))
 
 ;
@@ -53,5 +53,5 @@ let $config := admin:get-configuration()
 let $groupid := admin:group-get-id($config, "Default")
 return
 	admin:save-configuration( 
-			admin:appserver-set-authentication($config, admin:appserver-get-id($config, $groupid, "openspace-xdbc"),
+			admin:appserver-set-authentication($config, admin:appserver-get-id($config, $groupid, "openspacexdbc"),
          		"basic"))
