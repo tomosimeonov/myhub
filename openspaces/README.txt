@@ -12,8 +12,10 @@ http://developer.marklogic.com/products
 	rpm -i /tmp/MarkLogic-6.0-1.amd64.rpm
 
  - Mac OS : http://docs.marklogic.com/guide/installation/procedures#id_28962
+
 3. Start MarkLogic
-RedHat : 
+
+http://docs.marklogic.com/guide/installation/procedures#id_28962
 
 4. Browser : localhost:8000
 
@@ -21,9 +23,11 @@ RedHat :
 
 6. Copy the files from Setup into 
 
-Windows : c:\Program Files\MarkLogic\Modules
-Red Hat Linux :	/opt/MarkLogic/Modules
-Mac OS : ~/Library/Application/Modules
+ - Windows : c:\Program Files\MarkLogic\Modules
+
+ - Red Hat Linux :	/opt/MarkLogic/Modules
+
+ - Mac OS : ~/Library/Application/Modules
 
 
 7. In http://localhost:8000/qconsole/
