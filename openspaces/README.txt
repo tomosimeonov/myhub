@@ -1,31 +1,33 @@
-# Setup Guide
+ Setup Guide
 
-## Download MarKLogic 6
+1. Download MarKLogic 6
 
 http://developer.marklogic.com/products
 
-## Install MarkLogic 
+2. Install MarkLogic 
 
-###Windows x64
+ - Windows x64 : Standart Installation 
 
-Standart Installation 
+ - Red Hat x64 : As the root user, install the package with the following command:
+	rpm -i /tmp/MarkLogic-6.0-1.amd64.rpm
 
-###RedHat x64
+ - Mac OS : http://docs.marklogic.com/guide/installation/procedures#id_28962
+3. Start MarkLogic
+RedHat : 
 
-As the root user, install the package with the following command:
-rpm -i /tmp/MarkLogic-6.0-1.amd64.rpm
+4. Browser : localhost:8000
 
-## Start MarkLogic 
+5. Exress License and create admin 
 
-localhost:8000
+6. Copy the files from Setup into 
 
-## Exress License and create admin 
+Windows : c:\Program Files\MarkLogic\Modules
+Red Hat Linux :	/opt/MarkLogic/Modules
+Mac OS : ~/Library/Application/Modules
 
-## Copy the files from Setup into path-to-marklogic/MarkLogic/Modules
 
-## In localhost:8000/qconsole
+7. In http://localhost:8000/qconsole/
 
 copy this and run it
 xdmp:invoke("/run-all.xqy");
  
-
