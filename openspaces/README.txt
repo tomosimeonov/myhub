@@ -32,6 +32,6 @@ http://docs.marklogic.com/guide/installation/procedures#id_28962
 
 7. In http://localhost:8000/qconsole/
 
-copy this and run it
+copy and run it
 xdmp:invoke("/run-all.xqy");
  
