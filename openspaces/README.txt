@@ -35,3 +35,8 @@ http://docs.marklogic.com/guide/installation/procedures#id_28962
 copy and run it
 xdmp:invoke("/run-all.xqy");
  
+8.Usefull links : 
+
+http://docs.marklogic.com/javadoc/xcc/index.html
+
+http://docs.marklogic.com/
